@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "gomo-uvt": {
+      "commandName": "Project",
+      "commandLineArgs": "0-1405 450-913 1900-4515"
+    }
+  }
+}
