@@ -4,7 +4,7 @@ using System.Linq;
 namespace UniqueViewTime
 {
     /// <summary>
-    /// Takes information about segments of continues playback (ViewTimeFrames) and calculates 
+    /// Takes information about segments of continuous playback (ViewTimeFrames) and calculates 
     /// the amount of time, in milliseconds, that was watched at least once.
     /// </summary>
     public partial class UniqueViewTimeDigest
@@ -65,7 +65,7 @@ namespace UniqueViewTime
         }
 
         /// <summary>
-        /// Unique View Time - the number of milliseconds of a video viewed at least once.
+        /// Unique View Tim,  the number of milliseconds of a video viewed at least once.
         /// </summary>
         public uint Uvt
         {

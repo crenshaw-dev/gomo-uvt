@@ -24,6 +24,9 @@ namespace UniqueViewTime
         /// </summary>
         private static readonly Regex StartEndPairRegex = new Regex("^([0-9]+)-([0-9]+)$");
 
+        /// <summary>
+        /// Convert a start-end pair from a string to a ViewTimeFrame.
+        /// </summary>
         private static ViewTimeFrame StartEndPairToFrame(string pair)
         {
             Match match = StartEndPairRegex.Match(pair);
