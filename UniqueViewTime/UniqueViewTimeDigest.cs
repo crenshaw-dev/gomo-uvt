@@ -65,7 +65,7 @@ namespace UniqueViewTime
         }
 
         /// <summary>
-        /// Unique View Tim,  the number of milliseconds of a video viewed at least once.
+        /// Unique View Time,  the number of milliseconds of a video viewed at least once.
         /// </summary>
         public uint Uvt
         {
